@@ -10,7 +10,7 @@ export default createWidget('lm-layouts-banner', {
     });
 
     const anchor = h('a.lm-layouts-banner-anchor', {
-      url: this.siteSettings.lm_layouts_banner_url,
+      href: this.siteSettings.lm_layouts_banner_url,
       target: '_blank'
     }, [image]);
 

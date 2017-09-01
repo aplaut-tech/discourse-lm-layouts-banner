@@ -1,4 +1,7 @@
 plugins:
-  layouts_custom_html:
+  lm_layouts_banner_image:
+    default: ''
+    client: true
+  lm_layouts_banner_url:
     default: ''
     client: true
